@@ -1,5 +1,7 @@
-Environment Setup
+1)Environment Setup
+
 Using Pipenv
+
 Pipenv is a tool that manages dependencies and virtual environments for Python projects.
 
 Install Pipenv if you don't have it:
@@ -15,7 +17,9 @@ pipenv shell
 
 pipenv install <package_name>
 
-Running the Project
+2)Running the Project
+
+
 The project consists of three Python files, each corresponding to a different phase of the project:
 
 To run the App directly
@@ -32,7 +36,8 @@ Phase 3: Run the third phase using:
 python rag_pipeline.py
 Ensure that all dependencies are installed before running the scripts.
 
-Make sure to Download Ollama Locally
+
+3)Make sure to Download Ollama Locally
 
 For Embedding and save in faiss db
 ollama pull mxbai-embed-large
